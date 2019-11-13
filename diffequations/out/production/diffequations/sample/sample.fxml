@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="276.0" prefWidth="381.0" GridPane.columnIndex="1">
+         <children>
+            <Button id="btnCalculate" layoutX="287.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleOnButtonAction" text="Calculate" />
+            <TextField fx:id="textFieldx0" layoutX="60.0" layoutY="30.0" prefHeight="20.0" prefWidth="79.0" text="0" />
+            <TextField fx:id="textFieldy0" layoutX="60.0" layoutY="75.0" prefHeight="20.0" prefWidth="79.0" text="1" />
+            <TextField fx:id="textFieldX" layoutX="60.0" layoutY="120.0" prefHeight="20.0" prefWidth="79.0" text="20" />
+            <TextField fx:id="textFieldSteps" layoutX="60.0" layoutY="165.0" prefHeight="20.0" prefWidth="79.0" text="40" />
+            <TextField fx:id="textFieldEvolution" layoutX="260.0" layoutY="30.0" prefHeight="20.0" prefWidth="79.0" />
+            <Label layoutX="20.0" layoutY="30.0" text="x0" />
+            <Label layoutX="20.0" layoutY="75.0" text="y0" />
+            <Label layoutX="20.0" layoutY="120.0" text="X" />
+            <Label layoutX="20.0" layoutY="165.0" text="N" />
+            <Label layoutX="180.0" layoutY="30.0" text="Global evol" />
+         </children></AnchorPane>
+
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
